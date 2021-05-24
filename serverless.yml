@@ -13,6 +13,8 @@ provider:
 
 functions:
   nuxt:
+    timeout: 30
+    memorySize: 2048
     image:
       name: nuxt
     events:
