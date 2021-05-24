@@ -2,7 +2,7 @@ cat <<EOF | docker run --rm -i --entrypoint '' -v $(pwd):/var/task amazon/aws-la
 mktemp -d
 cd /tmp/tmp.*
 npx create-nuxt-app --answers "{ \
-  \"name\": \"nuxt-serverless-container@umihico\", \
+  \"name\": \"nuxt-serverless-container-demo\", \
   \"language\": \"js\", \
   \"description\": \"nuxt-serverless-container-demo\", \
   \"author\": \"umihico\", \

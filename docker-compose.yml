@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  nuxt:
+    build: .
+    command: npm run dev
+    entrypoint: [""]
+    environment:
+      PORT: 3000
+      HOST: 0.0.0.0
+    ports:
+      - 3000:3000
+    volumes:
+      - ".:/var/task"
